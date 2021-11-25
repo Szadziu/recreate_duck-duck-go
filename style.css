@@ -28,12 +28,15 @@
   height: 50px;
   width: 50px;
   line-height: 50px;
+
   margin: 0 10px;
-  font-size: 18px;
-  background-color: transparent;
   border: none;
+
+  background-color: transparent;
   border-radius: 10%;
+  font-size: 18px;
   color: rgb(180, 180, 180);
+
   cursor: pointer;
   transition: 0.3s;
 }
@@ -44,4 +47,11 @@
 }
 .header__socials-btn:hover {
   color: rgb(238, 238, 238);
+}
+
+.main__logo {
+  display: flex;
+  justify-content: center;
+
+  padding-bottom: 5%;
 }
