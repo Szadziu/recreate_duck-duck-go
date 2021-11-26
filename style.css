@@ -7,7 +7,14 @@
 .container {
   width: 100vw;
   height: 100vh;
+  max-width: 1200px;
+
+  margin: 0 auto;
+
   background-color: rgb(28, 28, 28);
+
+  color: rgb(238, 238, 238);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .header {
@@ -106,6 +113,58 @@
   width: 5vh;
 
   transform: translate(-50%, -50%) scale(0.8);
+
+  cursor: pointer;
+}
+
+.main__title {
+  width: 100%;
+
+  margin: 10px 0;
+
+  font-size: 38px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 60px;
+}
+
+.main__paragraph {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.main__feature {
+  display: inline-block;
+  width: 33%;
+
+  text-align: center;
+  font-size: 18px;
+}
+
+.main__feature::before {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  content: "";
+
+  margin-right: 10px;
+
+  background: center / contain url("/assets/checked.png");
+}
+
+.main__extension-btn {
+  width: 320px;
+  height: 55px;
+
+  margin-top: 30px;
+  border: none;
+
+  border-radius: 10px;
+  background-color: rgb(103, 143, 255);
+  color: rgb(238, 238, 238);
+  font-size: 18px;
+  font-weight: 600;
 
   cursor: pointer;
 }
