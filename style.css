@@ -16,7 +16,7 @@
   justify-content: flex-end;
 
   width: 100%;
-  height: 15vh;
+  height: 10vh;
 }
 
 .header__nav {
@@ -52,6 +52,60 @@
 .main__logo {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 
   padding-bottom: 5%;
+}
+
+.main__logo-image {
+  padding: 0 20vw;
+}
+
+.main__searcher {
+  width: 90vw;
+  height: 5vh;
+  max-width: 800px;
+
+  padding: 30px;
+  margin: 40px 0;
+  border: none;
+  border-radius: 5px 0 0 5px;
+
+  background-color: rgba(150, 150, 150, 0.7);
+  outline: none;
+  font-size: 24px;
+  color: rgb(238, 238, 238);
+}
+
+.main__searcher::placeholder {
+  color: rgb(28, 28, 28);
+}
+
+.main__searcher::-webkit-search-cancel-button {
+  height: 20px;
+
+  -webkit-appearance: none;
+  content: url("assets/clearButton.png");
+
+  cursor: pointer;
+}
+
+.main__searcher-magnifier {
+  width: 5vh;
+  height: 5vh;
+
+  margin: 40px 0;
+  padding: 30px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+
+  background-color: rgb(180, 180, 180);
+}
+
+.main__searcher-magnifier-image {
+  width: 5vh;
+
+  transform: translate(-50%, -50%) scale(0.8);
+
+  cursor: pointer;
 }
