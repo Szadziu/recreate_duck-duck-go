@@ -341,3 +341,28 @@
     width: 60vw;
   }
 }
+@media (max-width: 375px) and (orientation: portrait) {
+  .header__nav {
+    margin: 0;
+  }
+  .main__searcher {
+    width: 60vw;
+    font-size: 18px;
+  }
+  .main__features-card {
+    width: 80vw;
+  }
+  .footer {
+    margin-top: 30px;
+  }
+  .footer__title {
+    font-size: 24px;
+  }
+  .footer__install-btn {
+    width: 60vw;
+    font-size: 18px;
+  }
+  .footer__image {
+    margin-top: 140px;
+  }
+}
