@@ -333,3 +333,11 @@
     margin-top: 100px;
   }
 }
+@media (max-width: 640px) and (orientation: landscape) {
+  .main__searcher-magnifier-image {
+    width: 40px;
+  }
+  .main__features-card {
+    width: 60vw;
+  }
+}
