@@ -398,3 +398,28 @@
     margin-top: 100px;
   }
 }
+@media (max-width: 1920px) and (orientation: landscape) {
+  .main__features-paragraph {
+    width: 100%;
+  }
+  .main__features {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .main__features-card {
+    width: 30%;
+    padding: 0 10px;
+  }
+  .main__features-title {
+    font-size: 28px;
+  }
+  .main__features-paragraph {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .footer {
+    margin: 100px auto 0;
+  }
+}
