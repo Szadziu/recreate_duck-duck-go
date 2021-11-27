@@ -6,7 +6,7 @@
 
 .container {
   width: 100vw;
-  height: 100vh;
+  height: 400vh;
   max-width: 1200px;
 
   margin: 0 auto;
@@ -167,4 +167,66 @@
   font-weight: 600;
 
   cursor: pointer;
+}
+
+.main__rating {
+  width: 100%;
+
+  margin-top: 20px;
+
+  text-align: center;
+  font-size: 16px;
+}
+
+.main__rating::before {
+  display: inline-block;
+  width: 70px;
+  height: 16px;
+  content: "";
+
+  margin-top: 20px;
+  margin-right: 10px;
+
+  background: no-repeat center/cover url("/assets/ratingStars.png") gray;
+}
+
+.main__features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.main__features-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 35vw;
+
+  border-radius: 20px;
+  background-color: rgba(40, 40, 40, 0.7);
+}
+
+.main__features-image {
+  width: 40%;
+
+  margin: 30px 0;
+}
+
+.main__features-title {
+  text-align: center;
+  font-size: 20px;
+}
+
+.main__features-paragraph {
+  margin: 25px 20px;
+
+  text-align: center;
+  line-height: 25px;
+}
+
+.main__features-link {
+  color: rgb(103, 143, 255);
+  text-decoration: none;
 }
