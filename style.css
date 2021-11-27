@@ -366,3 +366,17 @@
     margin-top: 140px;
   }
 }
+@media (max-width: 667px) and (orientation: landscape) {
+  .main__searcher {
+    width: 80vw;
+  }
+  .main__searcher-magnifier-image {
+    width: 30px;
+  }
+  .main__title {
+    font-size: 26px;
+  }
+  .main__features-card {
+    width: 50vw;
+  }
+}
