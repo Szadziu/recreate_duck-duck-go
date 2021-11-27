@@ -149,7 +149,7 @@
 
   margin-right: 10px;
 
-  background: center / contain url("/assets/checked.png");
+  background: center / contain no-repeat url("/assets/checked.png");
 }
 
 .main__extension-btn {
@@ -235,7 +235,7 @@
   flex-direction: column;
   width: 100%;
 
-  border-radius: 5% 5% 0 0;
+  border-radius: 50px 50px 0 0;
   background-color: rgb(88, 183, 146);
 
   text-align: center;
@@ -271,4 +271,65 @@
 
 .footer__install-btn:hover {
   background-color: rgba(60, 60, 60, 0.8);
+}
+
+@media (max-width: 360px) and (orientation: portrait) {
+  .main__logo-image {
+    height: 160px;
+  }
+  .main__searcher {
+    width: 250px;
+  }
+  .main__searcher-magnifier {
+    background-color: rgb(88, 183, 146);
+  }
+  .main__title {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .main__paragraph {
+    font-size: 14px;
+  }
+  .main__feature {
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+    margin: 10px 20px;
+  }
+  .main__feature::before {
+    height: 14px;
+  }
+  .main__extension-btn {
+    width: 240px;
+    height: 40px;
+    font-size: 14px;
+  }
+  .main__rating {
+    font-size: 12px;
+  }
+  .main__rating::before {
+    height: 12px;
+  }
+  .main__features-card {
+    width: 80vw;
+  }
+  .footer {
+    margin-top: 80px;
+  }
+  .footer__title {
+    margin: 30% 10% 5%;
+    font-size: 22px;
+  }
+  .footer__subtitle {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .footer__install-btn {
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+  }
+  .footer__image {
+    margin-top: 100px;
+  }
 }
